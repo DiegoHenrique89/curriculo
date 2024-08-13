@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 body{
     width: 100%;
@@ -12,14 +13,13 @@ body{
     margin: 0 auto;
 }
 .contato{
-    
-    margin: px;
-    
+    margin: 5px;
 }
 .contato h1{
     background-color: crimson;
     padding: 20px;
-    width: 100%;
+    width: 50%;
+    margin: 0 auto;
     color: #fff;
     border-radius: 10px;
 }
@@ -30,6 +30,11 @@ body{
     list-style: none;
     margin: 10px;
 }
+.contato a{
+    text-decoration: none;
+    margin: 2px;
+}
+
 .formacao{
     margin: 5px;
     padding: 10px;
@@ -67,8 +72,9 @@ body{
     margin: 10px;
     padding-top: 10px;
     border-bottom: 1px solid;
-    width: 35%;
+    width: 85%;
     margin: 0 auto;
+    font-size: 17px;
 }
 footer{
     padding: 10px;
